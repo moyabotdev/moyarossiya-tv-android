@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moya Rossiya TV</string>
+    <string name="logo_description">Logo de Moya Rossiya</string>
+    <string name="nav_live">En direct</string>
+    <string name="nav_program">Programme</string>
+    <string name="nav_about">À propos</string>
+    <string name="live_now_on_channel">En ce moment sur Moya Rossiya TV</string>
+    <string name="live_now_short">En direct</string>
+    <string name="live_now">EN CE MOMENT</string>
+    <string name="live_next">ENSUITE</string>
+    <string name="live_next_with_title">Ensuite : %1$s</string>
+    <string name="live_default_title">Moya Rossiya TV — diffusion en continu 24 h/24</string>
+    <string name="live_default_now">24 h/24 — Reportages, interviews et documentaires</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Reprendre</string>
+    <string name="fullscreen">Plein écran</string>
+    <string name="back_to_overview">Retour à la vue d’ensemble</string>
+    <string name="loading_stream">Chargement du flux…</string>
+    <string name="stream_error">Impossible de charger le flux. Vérifiez votre connexion et réessayez.</string>
+    <string name="retry">Réessayer</string>
+    <string name="program_today">Programme du jour</string>
+    <string name="schedule_time_zone">Toutes les heures sont indiquées en heure allemande</string>
+    <string name="schedule_date_time_zone">%1$s · Toutes les heures sont indiquées en heure allemande</string>
+    <string name="refresh">Actualiser</string>
+    <string name="schedule_loading">Chargement du programme…</string>
+    <string name="schedule_unavailable">Le programme est actuellement indisponible.</string>
+    <string name="schedule_info">Informations sur l’émission</string>
+    <string name="schedule_status_current">Cette émission est en cours</string>
+    <string name="schedule_status_past">Cette émission est déjà terminée</string>
+    <string name="schedule_status_upcoming">Cette émission est encore prévue aujourd’hui</string>
+    <string name="schedule_time_duration">%1$s – %2$s · %3$d min</string>
+    <string name="watch_live">Regarder en direct</string>
+    <string name="back_to_program">Retour au programme</string>
+    <string name="error_live_info">Impossible de charger les informations du direct.</string>
+    <string name="about_tagline">Découvrez la Russie — en allemand</string>
+    <string name="about_description">Notre chaîne 24 h/24 propose des reportages, interviews et documentaires de Russie : villes et régions, culture et histoire, vie quotidienne et personnes.</string>
+    <string name="about_devices_title">Sur tous les écrans</string>
+    <string name="about_devices_text">Pour Android TV, Google TV, smartphones et tablettes. Regardez le direct et consultez le programme — gratuitement et sans compte.</string>
+    <string name="about_internet_title">Sur Internet</string>
+    <string name="about_internet_text">moyarossiya.tv\n\nActualités, voyages et informations sur la Russie :\nde.moyarossiya.com</string>
+    <string name="about_footer">Moya Rossiya · Reportages, interviews et documentaires de Russie</string>
+</resources>

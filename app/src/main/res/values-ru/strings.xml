@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moya Rossiya TV</string>
+    <string name="logo_description">Логотип Moya Rossiya</string>
+    <string name="nav_live">Эфир</string>
+    <string name="nav_program">Программа</string>
+    <string name="nav_about">О канале</string>
+    <string name="live_now_on_channel">Сейчас на Moya Rossiya TV</string>
+    <string name="live_now_short">Сейчас в эфире</string>
+    <string name="live_now">СЕЙЧАС</string>
+    <string name="live_next">ДАЛЕЕ</string>
+    <string name="live_next_with_title">Далее: %1$s</string>
+    <string name="live_default_title">Moya Rossiya TV — прямая трансляция 24/7</string>
+    <string name="live_default_now">24/7 — репортажи, интервью и документальные фильмы</string>
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+    <string name="fullscreen">На весь экран</string>
+    <string name="back_to_overview">Назад к обзору</string>
+    <string name="loading_stream">Загрузка трансляции…</string>
+    <string name="stream_error">Не удалось загрузить трансляцию. Проверьте соединение и повторите попытку.</string>
+    <string name="retry">Повторить</string>
+    <string name="program_today">Программа на сегодня</string>
+    <string name="schedule_time_zone">Время указано по Германии</string>
+    <string name="schedule_date_time_zone">%1$s · Время указано по Германии</string>
+    <string name="refresh">Обновить</string>
+    <string name="schedule_loading">Загрузка программы…</string>
+    <string name="schedule_unavailable">Программа временно недоступна.</string>
+    <string name="schedule_info">Информация о передаче</string>
+    <string name="schedule_status_current">Эта передача сейчас в эфире</string>
+    <string name="schedule_status_past">Эта передача уже завершилась</string>
+    <string name="schedule_status_upcoming">Эта передача ещё будет сегодня</string>
+    <string name="schedule_time_duration">%1$s – %2$s · %3$d мин</string>
+    <string name="watch_live">Смотреть эфир</string>
+    <string name="back_to_program">Назад к программе</string>
+    <string name="error_live_info">Не удалось загрузить информацию об эфире.</string>
+    <string name="about_tagline">Откройте для себя Россию — на немецком языке</string>
+    <string name="about_description">Наш круглосуточный канал показывает репортажи, интервью и документальные фильмы о России: города и регионы, культуру и историю, повседневную жизнь и людей.</string>
+    <string name="about_devices_title">На любом экране</string>
+    <string name="about_devices_text">Для Android TV, Google TV, смартфонов и планшетов. Смотрите эфир и программу — бесплатно и без регистрации.</string>
+    <string name="about_internet_title">В Интернете</string>
+    <string name="about_internet_text">moyarossiya.tv\n\nНовости, путешествия и информация о России:\nde.moyarossiya.com</string>
+    <string name="about_footer">Moya Rossiya · Репортажи, интервью и документальные фильмы о России</string>
+</resources>

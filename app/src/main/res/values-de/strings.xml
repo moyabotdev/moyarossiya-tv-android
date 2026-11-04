@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moya Rossiya TV</string>
+    <string name="logo_description">Moya Rossiya Logo</string>
+    <string name="nav_live">Live</string>
+    <string name="nav_program">Programm</string>
+    <string name="nav_about">Über uns</string>
+    <string name="live_now_on_channel">Jetzt auf Moya Rossiya TV</string>
+    <string name="live_now_short">Jetzt live</string>
+    <string name="live_now">JETZT</string>
+    <string name="live_next">ALS NÄCHSTES</string>
+    <string name="live_next_with_title">Als Nächstes: %1$s</string>
+    <string name="live_default_title">Moya Rossiya TV — 24/7 Livestream</string>
+    <string name="live_default_now">24/7 — Reportagen, Interviews und Dokumentationen</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Weiter</string>
+    <string name="fullscreen">Vollbild</string>
+    <string name="back_to_overview">Zurück zur Übersicht</string>
+    <string name="loading_stream">Livestream wird geladen …</string>
+    <string name="stream_error">Der Livestream konnte nicht geladen werden. Bitte Verbindung prüfen und erneut versuchen.</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="program_today">Programm heute</string>
+    <string name="schedule_time_zone">Alle Uhrzeiten in deutscher Zeit</string>
+    <string name="schedule_date_time_zone">%1$s · Alle Uhrzeiten in deutscher Zeit</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="schedule_loading">Der Sendeplan wird geladen …</string>
+    <string name="schedule_unavailable">Der Sendeplan ist momentan nicht verfügbar.</string>
+    <string name="schedule_info">Sendungsinformation</string>
+    <string name="schedule_status_current">Diese Sendung läuft jetzt</string>
+    <string name="schedule_status_past">Diese Sendung ist bereits gelaufen</string>
+    <string name="schedule_status_upcoming">Diese Sendung steht heute noch im Programm</string>
+    <string name="schedule_time_duration">%1$s – %2$s Uhr · %3$d Minuten</string>
+    <string name="watch_live">Live ansehen</string>
+    <string name="back_to_program">Zurück zum Programm</string>
+    <string name="error_live_info">Live-Informationen konnten nicht geladen werden.</string>
+    <string name="about_tagline">Russland entdecken — auf Deutsch</string>
+    <string name="about_description">Unser 24/7-Sender zeigt Reportagen, Interviews und Dokumentationen aus Russland: Städte und Regionen, Kultur und Geschichte, Alltag und Menschen.</string>
+    <string name="about_devices_title">Auf jedem Bildschirm</string>
+    <string name="about_devices_text">Für Android TV, Google TV, Smartphones und Tablets. Live schauen und Sendeplan lesen — kostenlos und ohne Konto.</string>
+    <string name="about_internet_title">Im Internet</string>
+    <string name="about_internet_text">moyarossiya.tv\n\nNachrichten, Reisen und Russland-Wissen:\nde.moyarossiya.com</string>
+    <string name="about_footer">Moya Rossiya · Reportagen, Interviews und Dokumentationen aus Russland</string>
+</resources>
