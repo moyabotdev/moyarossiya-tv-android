@@ -54,7 +54,9 @@ Für eine signierte Play-AAB dieselben Repository-Secrets wie bei MoyaVPN hinter
 - `ANDROID_KEY_ALIAS`
 - `ANDROID_KEY_PASSWORD`
 
-Ohne Secrets wird nur die Debug-APK erzeugt. Der Workflow veröffentlicht weder Releases noch Store-Uploads automatisch.
+Für den Upload in den **internen Test-Track** zusätzlich `PLAY_SERVICE_ACCOUNT_JSON` mit dem JSON eines Google-Play-Console-Service-Accounts setzen. Der Upload erfolgt mit Status `draft`; eine Produktionsfreigabe wird nicht automatisch veröffentlicht. Voraussetzung ist, dass die App `com.moyarossiya.tv` in der Play Console angelegt und der Service-Account für Releases berechtigt ist.
+
+Ohne Signatur-Secrets wird nur die Debug-APK erzeugt. Der Play-Upload wird nur ausgeführt, wenn sowohl Signatur als auch Play-Service-Account vorhanden sind.
 
 ## Projektstruktur
 

@@ -12,6 +12,7 @@ jobs:
       contents: read
     env:
       HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
+      HAS_PLAY_CREDENTIALS: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON != '' }}
       VERSION_CODE: ${{ github.run_number }}
       VERSION_NAME: "0.2.${{ github.run_number }}"
     steps:
@@ -62,3 +63,13 @@ jobs:
           name: MoyaRossiyaTV-play-aab
           path: app/build/outputs/bundle/release/app-release.aab
           if-no-files-found: error
+
+      - name: Upload to Google Play internal testing
+        if: env.HAS_KEYSTORE == 'true' && env.HAS_PLAY_CREDENTIALS == 'true'
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: com.moyarossiya.tv
+          releaseFiles: app/build/outputs/bundle/release/app-release.aab
+          track: internal
+          status: draft
